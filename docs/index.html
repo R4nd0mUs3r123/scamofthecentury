@@ -29,6 +29,12 @@
 
     <div id="app" style="color: white;"></div>
 
+    <script>
+    window.addEventListener("DOMContentLoaded", () => {
+        redirectNous();
+    });
+</script>
+
     <hr class="line" />
     <footer>
         <a class="footer-text">Page dévelopée par Xan Delayat</a>
@@ -38,7 +44,7 @@
         function redirectNous(event) {
             document.getElementById("app").innerHTML = `
           
-                               <h1 class="sub-body style="color: white;">Nous</h1>
+                               <h1 class="sub-body" style="color: white;">Nous</h1>
                                <p class="sub-body">
                                Nous sommes jumeaux, nous sommes en 1ère année de cycle ingénieur du numérique
                                à JUNIA Bordeaux. Nous avons effectué auparavant un BTS CIEL (Cybersécurité, Informatique, ELectronique & réseau).
